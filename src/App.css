@@ -1,0 +1,86 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: aliceblue;
+}
+.App {
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+}
+.head h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+.head form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 1rem 10px;
+  flex-wrap: wrap;
+}
+.head form input {
+  font-size: x-large;
+  width: 70vw;
+  background: rgba(189, 52, 52, 0.5);
+  height: 0.5rem;
+  box-shadow: 10px 10px 10px rgba(189, 52, 52, 1);
+  border-radius: 5px;
+  border-style: none;
+}
+.head form button {
+  width: 100px;
+  height: 2.8rem;
+  color: rgb(255, 255, 255);
+  background: rgba(173, 13, 106, 0.5);
+  border-radius: 5px;
+  border-style: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.all {
+  display: flex;
+  background: linear-gradient(to left, #cf23c7, #dc281e);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 500px;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
+  border-top: 10px solid rgba(221, 208, 26, 0.644);
+  border-bottom: 10px solid rgb(18, 128, 192);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+.card h3 {
+  padding: 20px 5px;
+  font-size: x-large;
+}
+.card ul li {
+  text-align: center;
+}
+
+.card img {
+  width: 20vw;
+  border-radius: 50%;
+  position: relative;
+  bottom: 0%;
+}
